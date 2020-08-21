@@ -63,7 +63,7 @@
   
   /* Make default font-size 1rem and add smooth scrolling to anchors */
   html {
-    font-size: 1rem;
+    font-size: 1.2rem;
     scroll-behavior: smooth;
   }
   
@@ -71,7 +71,7 @@
     font-family: 'Roboto', 'Open Sans', 'Arial';
     line-height: 1.8;
   
-    max-width: 80ch;
+    max-width: 100ch;
     min-height: 100vh;
     overflow-x: hidden;
     margin: 0 auto;
@@ -93,6 +93,7 @@
     -webkit-hyphens: auto;
     -moz-hyphens: auto;
     margin-top: 1rem;
+    font-size: 1rem;
   }
   
   /* A elements that don't have a class get default styles */
@@ -104,6 +105,7 @@
   a,
   a:visited {
     color: #a00;
+    font-size: 1rem;
   }
   
   a:focus {
