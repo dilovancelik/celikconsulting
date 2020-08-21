@@ -238,11 +238,16 @@
   }
   nav li {
     display: block;
+
   }
   nav li:before {
     content: counters(item, '.') ' ';
     counter-increment: item;
     padding-right: 0.85rem;
+  }
+
+  li {
+    font-size: 1rem;
   }
   
   /* Center definitions (most useful for display equations) */
