@@ -140,7 +140,8 @@
   code,
   pre,
   kbd {
-    font-family: 'Roboto', 'Open Sans', 'Arial';
+    font-family: Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New',
+      monospace;
     font-size: 85%;
   }
   pre {
